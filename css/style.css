@@ -1,0 +1,57 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-image: url("../assets/image3.png");
+    background-size: cover;
+    text-align: center;
+    color: #DD7C86;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3.0rem;
+    color: #E9D5DA;
+    border: 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#planets tr:nth-child(even){
+    background-color: rgba(130, 115, 151, 0.85);
+}
+
+#planets tr:nth-child(odd){
+    background-color: rgba(136, 123, 155, 0.97);
+}
+
+th {
+    font-size: 28px;
+    line-height: 50px;
+    background-color: #363062;
+    color: #E9D5DA;
+    text-transform: uppercase;
+}
+
+tr {
+    color: white;
+}
+
+td {
+    padding: 20px;
+    margin: auto;
+}
+
+td:hover {
+    background-color: #4D4C7D;
+}
+
+td:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img {
+    height: 175px;
+}
